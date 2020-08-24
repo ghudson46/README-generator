@@ -71,14 +71,15 @@ var generateMarkdown = data => {
   ${data.test}
 
   ## Questions
-  [GitHub: ${data.username}](${data.profile})
+  [GitHub: ${data.username}](${data.profilegi})
   [Email: ${data.email}](${data.email})
   Contact me! ${data.contact}
-  `
 
-function generateMarkdown() {
-  
-};
-
+  `;
 
 }
+
+module.exports = {
+  genMarkdown : generateMarkdown
+}
+
