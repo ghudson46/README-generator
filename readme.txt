@@ -1,1 +1,1 @@
-{"title":"readme generator","description":"takes user input in the command line, using inquirer prompts, and uses it to create a good readme.md for their application","installation":"they need to install node.js and do npm install inquirer in their command line","usage":"Use the command line in node.js","license":"MIT","contributers":"nobody","email":"garrett.hudson46@gmail.com","tests":"idk"}
+undefined
