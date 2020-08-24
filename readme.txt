@@ -1,0 +1,1 @@
+{"title":"My App","description":"Cool app that does stuff","installation":"nothing","usage":"Use the command line in node.js","license":"BSD","contributers":"Nobody. This is my own work","email":"n/a","tests":"idk"}

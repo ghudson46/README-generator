@@ -51,7 +51,12 @@ inquirer
       default: "idk",
     }
   ]).then(response => {
-    console.log(response);
+    fs.writeFile("readme.txt", JSON.stringify(response).split(","), function(err) {
+      if(err) {
+        return console.log(err);
+      }
+      console.log('The file was saved!');
+    })
   })
 
 // function to write README file
