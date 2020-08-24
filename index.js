@@ -79,12 +79,21 @@ const questions = [
 
 // function to write README file
 function writeToFile(fileName, data) {
-
+  fs.writeFile(fileName, data, (err) => {
+    if (err) {
+      return console.log(err);
+    }
+    console.log("it worked!");
+  });
 }
 
 // function to initialize program
 function init() {
-
+  inquirer.prompt(questions)
+    .then(data => {
+      let content = markdown(data);
+      writeToFile(fileName, content);
+    });
 }
 
 // function call to initialize program
