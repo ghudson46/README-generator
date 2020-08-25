@@ -1,8 +1,8 @@
-# Readme Generator
+# ReadMe Generator
   
   ## Table of Contents
-  - [Description] (#Description)
-  - [Installation] (#Installation)
+  - [Description](#Description)
+  - [Installation](#Installation)
   - [Usage](#Usage)
   - [License](#License)
   - [Contributing](#Contributing)
@@ -10,30 +10,30 @@
   - [Questions](#Questions)
 
   ## Description
-  ![badge] (https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)
-  [App Link] (undefined)
-  ![App IMG] (screenshot url)
+  ![badge]()
+  [App Link](www.garretthudson.com/readme)
+  ![App Img](n/a)
 
-  This app takes input from the commant line (using inquirer prompt) and uses the data to generate a readme.md for the user
+  This app uses node.js and inquirer prompts to get input from the user, and uses that input to generate a README.md file. An array of questions is passed through the prompt when the user initializes the application. The user’s input data is passed through the module in order to generate the readme. A license object was created to store the options for different licenses and the proper license is matched with the user input.
 
   ## Installation
-  they must have node.js installed and do an npm install for inquirer and util
+  To install, you just need to download the index.js and generateMarkdown.js files and open your terminal. Inside the terminal make sure you run npm install to ensure all modules (inquirer) are installed.
 
   ## Usage
-  by running "node index.js" in the command line and following the prompt
+  In the same directory as the index.js file, enter “node index.js” in the command line to run the program. Answer the prompted questions and let the application create a README.md file for you.
 
   ## License 
-  [BSD](https://opensource.org/licenses/BSD-3-Clause)
+  [Unspecified (user specific)]()
 
   ## Contributing
-  they cant
+  You can contribute in any way you see fit! 
 
   ## Tests
-  used JEST
+  I tested the app by using the console.log to ensure functions were rendering properly before moving on
 
   ## Questions
   [GitHub: ghudson46](undefined)
-  [Email: garrett.hudson46@gmai.com](garrett.hudson46@gmai.com)
-  Contact me! email
+  [Email: garrett.hudson46@gmail.com](garrett.hudson46@gmail.com)
+  Contact me! Email me or message me on linkedin or github!
 
   
