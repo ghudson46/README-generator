@@ -12,22 +12,22 @@ const questions = [
 
     {
         type: "input",
-        message: "What's the App name?",
+        message: "What is the name of your app?",
         name: "title"
     },
     {
         type: "input",
-        message: "Enter deployed App link.",
+        message: "Enter deployed App link",
         name: "deployed"
     },
     {
         type: "input",
-        message: "Take a screenshot or gif of your App and enter the url.",
+        message: "Take a screenshot of your App and enter the url.",
         name: "appImg"
     },
     {
         type: "input",
-        message: "What is your App about? Your process?",
+        message: "Describe the functionality of the application",
         name: "description"
     },
     {
@@ -37,7 +37,7 @@ const questions = [
     },
     {
         type: "input",
-        message: "How do you use the App?",
+        message: "How does the user use the App?",
         name: "usage"
     },
     {
@@ -47,7 +47,7 @@ const questions = [
     },
     {
         type: "input",
-        message: "What are the stipulations if others what to contribute to your App?" ,
+        message: "How can others contribute to your app?" ,
         name: "contribute"
     },
     {
