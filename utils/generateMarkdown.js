@@ -1,7 +1,7 @@
-// generate markdown 
-var generateMarkdown = data => {
+// function to generate markdown for README
+var generateMarkdown = function(data) {
 
-  // licenses
+  // license markdown
   const licenses = {
     MIT: {
       name: "MIT",
@@ -37,7 +37,6 @@ var generateMarkdown = data => {
 
   // markdown
   return `# ${data.title}
-  
   ## Table of Contents
   - [Description](#Description)
   - [Installation](#Installation)
@@ -46,39 +45,28 @@ var generateMarkdown = data => {
   - [Contributing](#Contributing)
   - [Tests](#Tests)
   - [Questions](#Questions)
-
   ## Description
   ![badge](${license.badge})
-  [App Link](${data.link})
+  [App Link](${data.deployed})
   ![App Img](${data.appImg})
-
   ${data.description}
-
   ## Installation
   ${data.install}
-
   ## Usage
   ${data.usage}
-
-  ## License 
+  ## License
   [${license.name}](${license.url})
-
   ## Contributing
   ${data.contribute}
-
   ## Tests
   ${data.test}
-
   ## Questions
-  [GitHub: ${data.username}](${data.profilegi})
+  [GitHub: ${data.gitUser}](${data.gitLink})
   [Email: ${data.email}](${data.email})
-  Contact me! ${data.contact}
-
+  Contact me! ${data.contactMe}
   `;
-
 }
 
 module.exports = {
   genMarkdown : generateMarkdown
 }
-
