@@ -15,7 +15,7 @@
   ## Installation
   To install, you just need to download the index.js and generateMarkdown.js files and open your terminal. Inside the terminal make sure you run npm install to ensure all modules (inquirer) are installed.
   ## Usage
-  In the same directory as the index.js file, enter “node index.js” in the command line to run the program. Answer the prompted questions and let the application create a README.md file for you. ![see how it works!](https://drive.google.com/drive/u/0/my-drive)
+  In the same directory as the index.js file, enter “node index.js” in the command line to run the program. Answer the prompted questions and let the application create a README.md file for you. [see how it works!](https://drive.google.com/drive/u/0/my-drive)
   ## License
   [MIT](https://opensource.org/licenses/MIT)
   ## Contributing
